@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+venv/
+train_venv/
+__pycache__/
+*.pyc
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Large model files (train them locally)
+backend/models/*.h5
+backend/models/*.keras
+
+# Datasets (too large for git)
+training/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
